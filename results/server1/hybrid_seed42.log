@@ -1,0 +1,10 @@
+
+Model: hybrid; seed: 42; device: cuda
+Initial negative samples SHA256: 235d58acdf7d28ae09eaadb0b258fdd6be06ff97eba67b5b586531854f5b1ff6
+Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.3949, HR@10=0.4950, NDCG@10=0.1088
+Training:  33%|███▎      | 1/3 [00:03<00:06,  3.19s/it]Epoch 2: loss=0.3369, HR@10=0.5287, NDCG@10=0.1256
+Training:  67%|██████▋   | 2/3 [00:06<00:03,  3.22s/it]Epoch 3: loss=0.3239, HR@10=0.5327, NDCG@10=0.1275
+Training: 100%|██████████| 3/3 [00:09<00:00,  3.22s/it]Training: 100%|██████████| 3/3 [00:09<00:00,  3.21s/it]
+Best validation: {'HR@10': 0.5326945705160531, 'HR@20': 0.6528828374516725, 'NDCG@10': 0.12750391016143856, 'NDCG@20': 0.129768432539061}
+Test: {'HR@10': 0.5208123531386372, 'HR@20': 0.649546827794562, 'NDCG@10': 0.1227379039846948, 'NDCG@20': 0.12773836153773122}
+Elapsed seconds: 16.89

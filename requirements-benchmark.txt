@@ -1,0 +1,6 @@
+# server1 comparison runtime; Python 3.10.19, CUDA 12.1, saved text features.
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+numpy==2.2.6
+pandas==2.2.2
+tqdm==4.67.1

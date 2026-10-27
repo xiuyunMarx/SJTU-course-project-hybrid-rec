@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1793140450.50794 "report.xdv" "report.pdf" "report" 1793140450.91113 0
-  "report.xdv" 1793140450.43824 253744 a787a76205902d2af2982d84f3204aa7 "xelatex"
+["xdvipdfmx"] 1793140900.35021 "report.xdv" "report.pdf" "report" 1793140900.76448 0
+  "report.xdv" 1793140900.28265 248896 98625a4aeaaf339761b1535453d5a3b9 "xelatex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["xelatex"] 1793140449.50305 "/home/xiaoyu/SJTU/report/source/report.tex" "report.xdv" "report" 1793140450.9093 0
-  "/home/xiaoyu/SJTU/report/source/report.tex" 1793140449.33426 38433 1a6beeeab91198c7c657b03f3a78c64d ""
+["xelatex"] 1793140899.36033 "/home/xiaoyu/SJTU/report/source/report.tex" "report.xdv" "report" 1793140900.76277 0
+  "/home/xiaoyu/SJTU/report/source/report.tex" 1793140898.18269 37742 095fe79e885e820faac115a06e947cab ""
   "/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
   "/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -158,8 +158,8 @@
   "figures/coldstart_buckets.png" 1793137278.82411 85737 d81a84a610dcd1489bbaec07dfbe477a ""
   "figures/overall_metrics.png" 1793137278.82411 99349 b7622cc18c59d5cdc790127c62d83e4d ""
   "figures/training_curves.png" 1793137278.82411 123478 44b6044a9ffd10aff46ce4fdb18606e0 ""
-  "report.aux" 1793140450.43824 5119 bc088948155f72ef39650f71e052d28f "xelatex"
-  "report.tex" 1793140449.33426 38433 1a6beeeab91198c7c657b03f3a78c64d ""
+  "report.aux" 1793140900.28265 5119 5945250f6af114fb33ca803d1396fa8d "xelatex"
+  "report.tex" 1793140898.18269 37742 095fe79e885e820faac115a06e947cab ""
   (generated)
   "report.aux"
   "report.log"

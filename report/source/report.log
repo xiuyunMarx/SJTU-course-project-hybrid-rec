@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.10.27)  27 OCT 2026 18:37
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.10.27)  27 OCT 2026 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1119,7 +1119,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-]
+] [2]
 
 Package fontspec Info: 
 (fontspec)             Script 'CJK' not explicitly supported within font
@@ -1140,7 +1140,7 @@ Package fontspec Info:
 (fontspec)             <->"[FandolFang-Regular.otf]/OT:script=hani;language=dfl
 t;"
 
- [2] [3] [4] [5] [6] [7]
+ [3] [4] [5] [6] [7]
 Underfull \hbox (badness 7064) in paragraph at lines 248--248
 []|\TU/FandolSong-Regular(0)/m/n/9.03374 回 答 的 问
  []
@@ -1338,12 +1338,12 @@ G@10 \TU/FandolSong-Regular(0)/m/n/10.53937 都 在 热 门 推 荐 的 \TU/lmr/
 dolSong-Regular(0)/m/n/10.53937 的 \TU/lmr/m/n/10.53937 NDCG@10
  []
 
-[11] [12]
 File: figures/training_curves.png Graphic file (type bmp)
 <figures/training_curves.png>
+[11] [12]
 File: figures/coldstart_buckets.png Graphic file (type bmp)
 <figures/coldstart_buckets.png>
- [13] [14] [15] [16] [17] [18] [19] (./report.aux)
+ [13] [14] [15] [16] [17] [18] (./report.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026/08/11>
@@ -1358,4 +1358,4 @@ Here is how much of TeX's memory you used:
  36 hyphenation exceptions out of 8191
  93i,10n,112p,734b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (19 pages).
+Output written on report.pdf (18 pages).

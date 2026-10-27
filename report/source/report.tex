@@ -42,7 +42,7 @@
 
 \subsection{整体方案}
 
-项目分两个部分. 第一部分是课程框架提供的GPT-2 作为特征编码器的推荐模型, 代码位于 \texttt{recommender/base\_LLM\_NCF/}; 第二部分是基于GPT-2 的HLLM 推荐模型, 代码位于 \texttt{recommender/miniHLLM/}. 两个部分共用 MovieLens-1M 数据与 GPT-2 权重.
+项目分两个部分. 第一部分是课程框架提供的GPT-2 作为特征编码器的推荐模型; 第二部分是基于GPT-2 的HLLM 推荐模型. 两个部分共用 MovieLens-1M 数据与 GPT-2 权重.
 
 \textbf{第一部分: GPT-2 特征增强的 NCF.} 补全课程基础框架中留空的四处代码: GPT-2 隐藏状态的掩码平均池化; 排除用户历史的负采样; 融合用户 ID, 电影 ID 与电影文本向量的打分函数; BPR 损失. 课程框架按记录随机划分数据, 且没有基线对照, 因此无法回答上述三个问题.
 
@@ -519,26 +519,6 @@ H1 miniHLLM (text) & 0.043 $\pm$ 0.003 & 0.119 $\pm$ 0.004 & \textbf{0.228 $\pm$
   \item \textbf{与生成式推荐对比.} 在相同的电影文本向量上训练 RQ-VAE 得到语义 ID, 实现 TIGER 风格的生成式检索, 与 miniHLLM 的稠密检索对比.
 \end{enumerate}
 
-\section*{附录: 复现}
-
-\begin{footnotesize}
-\begin{verbatim}
-git lfs pull                       # 数据, GPT-2 权重
-cd recommender/miniHLLM
-python item_features.py            # 电影文本向量 -> weight/item_text_features.pt
-./run_all.sh && ./run_extra.sh     # 28 次训练 -> results/main/
-python summarize.py                # 汇总表
-python plot_results.py             # 图 -> figures/
-\end{verbatim}
-\end{footnotesize}
-
-第一部分:
-\begin{footnotesize}
-\begin{verbatim}
-cd recommender/base_LLM_NCF
-python gpt2.py && python main.py --epochs 3
-\end{verbatim}
-\end{footnotesize}
 
 \section*{参考文献}
 

@@ -50,9 +50,7 @@ def build_model(args, data):
         )
     else:
         backbone = GPT2Backbone(args.gpt2_path, pretrained=not args.no_pretrained, freeze=args.freeze_backbone)
-    return SeqRecommender(
-        item_encoder, backbone, item_dim, data.valid_item_mask, temperature=args.temperature, scoring=args.scoring
-    )
+    return SeqRecommender(item_encoder, backbone, item_dim, data.valid_item_mask, temperature=args.temperature)
 
 
 @torch.no_grad()
@@ -200,7 +198,6 @@ if __name__ == "__main__":
     p.add_argument("--heads", type=int, default=2)
     p.add_argument("--dropout", type=float, default=0.2)
     p.add_argument("--temperature", type=float, default=0.05)
-    p.add_argument("--scoring", choices=["cosine", "dot"], default="cosine")
     p.add_argument("--max_len", type=int, default=50)
     p.add_argument("--epochs", type=int, default=100)
     p.add_argument("--patience", type=int, default=10)

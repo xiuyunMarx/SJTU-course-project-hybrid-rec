@@ -103,6 +103,6 @@ class ML1MDataset:
 
 
 if __name__ == "__main__":
-    dataset = ML1MDataset("ml-1m")
+    dataset = ML1MDataset(Path(__file__).resolve().parents[2] / "ml-1m")
     print(dataset)
     print("Split sizes:", [len(part) for part in dataset.get_split_data(None)])

@@ -7,3 +7,4 @@ venv/
 .codex/
 .aws/
 artifacts/
+recommender/miniHLLM/weight/ckpt/

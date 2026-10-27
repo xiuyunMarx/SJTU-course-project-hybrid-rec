@@ -3,7 +3,7 @@
 ItemEncoder   : 冻结 GPT-2 文本向量（可训练适配器）和 / 或 ID Embedding -> 整张物品表 E。
 SASRecBackbone: 从零训练的因果 Transformer，作为对照。
 GPT2Backbone  : 以 inputs_embeds 方式读入物品向量序列的 GPT-2（预训练或随机初始化）。
-SeqRecommender: 位置 t 的输出与物品表 E 做余弦打分，对全部电影 softmax 交叉熵。
+SeqRecommender: 位置 t 的输出与物品表 E 做余弦相似度 / 温度打分，对全部电影 softmax 交叉熵。
 """
 
 import math
@@ -25,8 +25,7 @@ class ItemEncoder(nn.Module):
         if use_text:
             if text_features is None:
                 raise ValueError("use_text=True 需要提供 text_features")
-            # GPT-2 隐藏状态各向异性很强（所有向量共享一个大的公共方向），
-            # 先按有效电影做逐维标准化，再进适配器。
+            # GPT-2 隐藏状态各向异性很强（所有向量共享一个大的公共方向），先按有效电影做逐维标准化，再进适配器。
             feats = text_features.float()
             valid = feats.abs().sum(1) > 0
             mean = feats[valid].mean(0, keepdim=True)
@@ -84,20 +83,19 @@ class GPT2Backbone(nn.Module):
         else:
             self.gpt2 = GPT2Model(GPT2Config.from_pretrained(model_path, local_files_only=True))
         # 词表 Embedding 不参与 inputs_embeds 路径，删掉省显存。
-        self.gpt2.wte = nn.Identity()
+        self.gpt2.wte = nn.Identity() #type: ignore
         if freeze:
-            for p in self.gpt2.parameters():
+            for p in self.gpt2.parameters():  #type: ignore
                 p.requires_grad_(False)
-        self.out_dim = self.gpt2.config.n_embd
+        self.out_dim = self.gpt2.config.n_embd  #type: ignore
 
     def forward(self, x, pad_mask):
-        return self.gpt2(inputs_embeds=x, attention_mask=pad_mask.long()).last_hidden_state
+        return self.gpt2(inputs_embeds=x, attention_mask=pad_mask.long()).last_hidden_state  #type: ignore
 
 
 class SeqRecommender(nn.Module):
-    def __init__(self, item_encoder, backbone, item_dim, valid_item_mask, temperature=0.05, scoring="cosine"):
+    def __init__(self, item_encoder, backbone, item_dim, valid_item_mask, temperature=0.05):
         super().__init__()
-        self.scoring = scoring
         self.item_encoder = item_encoder
         self.backbone = backbone
         hidden = backbone.out_dim
@@ -115,16 +113,11 @@ class SeqRecommender(nn.Module):
         return self.out_proj(h), table
 
     def scores(self, h, table):
-        """余弦相似度 / 温度，或纯点积；无效电影置为 -inf。h: [..., d] -> [..., N]。"""
+        """余弦相似度 / 温度；无效电影置为 -inf。h: [..., d] -> [..., N]。打分强制 fp32。"""
         with torch.autocast("cuda", enabled=False):
-            return self._scores(h.float(), table.float())
-
-    def _scores(self, h, table):
-        if self.scoring == "cosine":
+            h, table = h.float(), table.float()
             tau = self.log_tau.clamp(math.log(0.01), math.log(1.0)).exp()
             logits = F.normalize(h, dim=-1) @ F.normalize(table, dim=-1).t() / tau
-        else:
-            logits = h @ table.t()
         return logits.masked_fill(~self.valid_item_mask, float("-inf"))
 
     def loss(self, seq, target):

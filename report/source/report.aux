@@ -1,0 +1,50 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}项目介绍}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}项目背景}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}研究目标}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}整体方案}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}方法设计}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}第一部分: GPT-2 特征增强的 NCF}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}第二部分: miniHLLM}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}问题定义}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}HLLM 结构概览}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces miniHLLM 的总体结构. 灰色为冻结模块, 橙色为可训练模块, 蓝色为数据. 输入侧查表与输出侧打分共用同一张电影表 $\mathbf  {E}$ (虚线).}}{4}{}\protected@file@percent }
+\newlabel{fig:arch}{{1}{4}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3}电影侧: Item LLM 与电影表}{4}{}\protected@file@percent }
+\newlabel{sec:itemside}{{2.2.3}{4}{}{subsubsection.2.2.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.4}用户侧: User LLM}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5}打分函数与训练目标}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.6}训练与推理}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.7}与 HLLM 原版的差异}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.8}对照模型设计}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}大语言模型的具体作用}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}实现要点}{9}{}\protected@file@percent }
+\newlabel{sec:impl}{{2.4}{9}{}{subsection.2.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}实验结果}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}实验设置}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}评价指标}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}第一部分结果}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}第二部分主结果}{11}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 测试集整体指标 (Top-10)}}{12}{}\protected@file@percent }
+\newlabel{tab:main}{{1}{12}{}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 测试集整体指标 (Top-20)}}{12}{}\protected@file@percent }
+\newlabel{tab:main20}{{2}{12}{}{table.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 测试集 HR@10 与 NDCG@10, 误差线为三种子样本标准差.}}{12}{}\protected@file@percent }
+\newlabel{fig:overall}{{2}{12}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}收敛速度}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 种子 42 的验证集 NDCG@10 随训练轮次的变化, 横轴为对数刻度, 圆点为早停选中的最佳轮.}}{13}{}\protected@file@percent }
+\newlabel{fig:curves}{{3}{13}{}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 按目标电影训练热度分桶的测试 NDCG@10}}{14}{}\protected@file@percent }
+\newlabel{tab:cold}{{3}{14}{}{table.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 各热度桶的测试 NDCG@10.}}{14}{}\protected@file@percent }
+\newlabel{fig:cold}{{4}{14}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}冷门电影分析}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}消融分析: 回答三个研究问题}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}推荐案例}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}项目总结}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}主要成果}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}不足}{17}{}\protected@file@percent }
+\newlabel{sec:limits}{{4.2}{17}{}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}改进方向}{17}{}\protected@file@percent }
+\newlabel{sec:future}{{4.3}{17}{}{subsection.4.3}{}}
+\gdef \@abspage@last{19}

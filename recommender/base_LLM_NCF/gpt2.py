@@ -5,12 +5,15 @@ import pandas as pd
 import torch
 from transformers import GPT2Model, GPT2Tokenizer
 
+HERE = Path(__file__).resolve().parent          # recommender/base_LLM_NCF
+ROOT = HERE.parents[1]                          # 仓库根目录
+
 
 def choose_model_source(model_path=None):
     """优先使用随学生包提供的本地权重；教师机也可以使用 Hugging Face 缓存。"""
     if model_path:
         return str(Path(model_path)), True
-    local_path = Path("gpt2_model")
+    local_path = ROOT / "gpt2_model"
     if local_path.is_dir():
         return str(local_path), True
     return "gpt2", False
@@ -57,10 +60,7 @@ def extract_movie_features(data_path, output_path, batch_size=32, model_path=Non
             hidden = model(**inputs).last_hidden_state
             padding = inputs["attention_mask"]# [B, L]
             pooled = (hidden * padding[:,:,None]).sum(dim=1) / padding.sum(dim=1, keepdim=True) # [B, 768]
-            # TODO 1：对最后一层隐藏状态进行掩码平均池化，得到 [B, 768]。
-            # 提示：attention_mask 中真实词元为 1，padding 为 0；先扩充
-            # 最后一维，再计算加权和并除以真实词元数。
-            # raise NotImplementedError("请完成 GPT-2 掩码平均池化")
+            # TODO 1：对最后一层隐藏状态进行掩码平均池化，得到 [B, 768]。 
         encoded_batches.append(pooled.cpu())
 
     encoded = torch.cat(encoded_batches)  # [3883, 768]
@@ -80,9 +80,9 @@ def extract_movie_features(data_path, output_path, batch_size=32, model_path=Non
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="提取 MovieLens 电影的 GPT-2 特征")
-    parser.add_argument("--data_path", default="ml-1m")
-    parser.add_argument("--output", default="movie_features.pt")
+    parser.add_argument("--data_path", default=str(ROOT / "ml-1m"))
+    parser.add_argument("--output", default=str(HERE / "weight" / "movie_features.pt"))
     parser.add_argument("--batch_size", type=int, default=32)
-    parser.add_argument("--model_path", default=None)
+    parser.add_argument("--model_path", default=str(ROOT / "gpt2_model"))
     args = parser.parse_args()
     extract_movie_features(args.data_path, args.output, args.batch_size, args.model_path)

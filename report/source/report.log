@@ -1,0 +1,992 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.10.27)  27 OCT 2026 18:34
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/xiaoyu/SJTU/report/source/report.tex
+(/home/xiaoyu/SJTU/report/source/report.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-09-09>
+(/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/ctex.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-09-09 L3 programming layer (loader) 
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def
+File: l3backend-xetex.def 2026-09-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count281
+\g__pdfannot_backend_int=\count282
+\g__pdfannot_backend_link_int=\count283
+))
+Package: ctex 2026/08/11 v2.6.5 Chinese adapter in LaTeX (CTEX)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2026/08/11 v2.6.5 Document and package hooks (CTEX)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2026/08/11 v2.6.5 Patching commands (CTEX)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1) on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) on input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) on input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding TS1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) on input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) on input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) on input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input line 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on input line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encoding TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (encoding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encoding TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (encoding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1) on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encoding TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) on input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on input line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on input line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1) on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encoding TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) on input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1) on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1) on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1) on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on input line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on input line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on input line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on input line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) on input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on input line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) on input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) on input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) on input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on input line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on input line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on input line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1) on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on input line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) on input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on input line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1) on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on input line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding TS1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on input line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on input line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on input line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on input line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on input line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on input line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1) on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on input line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) on input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding TS1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on input line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on input line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) on input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1) on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on input line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on input line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on input line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on input line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) on input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) on input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1) on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on input line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1) on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on input line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1) on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) on input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding TS1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1) on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on input line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on input line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on input line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on input line 194.
+))
+\l__ctex_tmp_int=\count284
+\l__ctex_tmp_box=\box53
+\l__ctex_tmp_dim=\dimen151
+\g__ctex_section_depth_int=\count285
+\g__ctex_font_size_int=\count286
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2026/08/11 v2.6.5 Option configuration file (CTEX)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2026/08/11 v2.6.5 XeLaTeX adapter (CTEX)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2026/08/21 v3.10.6 Typesetting CJK scripts with XeLaTeX
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2025-10-09 L3 Experimental prototype document functions
+)
+\l__xeCJK_tmp_int=\count287
+\l__xeCJK_tmp_box=\box54
+\l__xeCJK_tmp_dim=\dimen152
+\l__xeCJK_tmp_skip=\skip51
+\g__xeCJK_space_factor_int=\count288
+\l__xeCJK_begin_int=\count289
+\l__xeCJK_end_int=\count290
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\c__xeCJK_HangulJamoL_class_int=\XeTeXcharclass9
+\c__xeCJK_HangulJamoV_class_int=\XeTeXcharclass10
+\c__xeCJK_HangulJamoT_class_int=\XeTeXcharclass11
+\c__xeCJK_CJStarter_class_int=\XeTeXcharclass12
+\c__xeCJK_PoZheHao_class_int=\XeTeXcharclass13
+\l__xeCJK_interword_dim=\dimen153
+\l__xeCJK_last_skip=\skip52
+\c__xeCJK_none_node=\count291
+\g__xeCJK_node_int=\count292
+\c__xeCJK_CJK_node_dim=\dimen154
+\c__xeCJK_CJK-space_node_dim=\dimen155
+\c__xeCJK_default_node_dim=\dimen156
+\c__xeCJK_CJK-widow_node_dim=\dimen157
+\c__xeCJK_normalspace_node_dim=\dimen158
+\c__xeCJK_default-space_node_skip=\skip53
+\c__xeCJK_math_node_dim=\dimen159
+\c__xeCJK_math-space_node_dim=\dimen160
+\c__xeCJK_math-space-frozen_node_dim=\dimen161
+\g__xeCJK_boundary_capture_depth_int=\count293
+\g__xeCJK_boundary_suspend_depth_int=\count294
+\g__xeCJK_boundary_capture_1_box=\box55
+\g__xeCJK_boundary_capture_2_box=\box56
+\g__xeCJK_boundary_capture_3_box=\box57
+\l__xeCJK_boundary_post_box=\box58
+\l__xeCJK_boundary_math_skip=\skip54
+\l__xeCJK_boundary_math_actual_skip=\skip55
+\l__xeCJK_boundary_math_ecglue_skip=\skip56
+\l__xeCJK_boundary_math_delta_skip=\skip57
+\l__xeCJK_boundary_math_space_dim=\dimen162
+\l__xeCJK_boundary_math_ecglue_dim=\dimen163
+\l__xeCJK_boundary_math_stretch_dim=\dimen164
+\l__xeCJK_boundary_math_shrink_dim=\dimen165
+\g__xeCJK_boundary_probe_type_int=\count295
+\l__xeCJK_boundary_probe_box=\box59
+\l__xeCJK_ccglue_skip=\skip58
+\l__xeCJK_ecglue_skip=\skip59
+\g__xeCJK_par_guard_dim=\dimen166
+\l__xeCJK_punct_kern_skip=\skip60
+\l__xeCJK_indent_box=\box60
+\l__xeCJK_last_penalty_int=\count296
+\l__xeCJK_last_bound_dim=\dimen167
+\l__xeCJK_last_kern_dim=\dimen168
+\l__xeCJK_widow_penalty_int=\count297
+
+LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
+(template)           argument(s) on line 4902.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen169
+\l__xeCJK_mixed_punct_width_dim=\dimen170
+\l__xeCJK_middle_punct_width_dim=\dimen171
+\l__xeCJK_fixed_margin_width_dim=\dimen172
+\l__xeCJK_mixed_margin_width_dim=\dimen173
+\l__xeCJK_middle_margin_width_dim=\dimen174
+\l__xeCJK_bound_punct_width_dim=\dimen175
+\l__xeCJK_bound_margin_width_dim=\dimen176
+\l__xeCJK_margin_minimum_dim=\dimen177
+\l__xeCJK_kerning_total_width_dim=\dimen178
+\l__xeCJK_same_align_margin_dim=\dimen179
+\l__xeCJK_different_align_margin_dim=\dimen180
+\l__xeCJK_kerning_margin_width_dim=\dimen181
+\l__xeCJK_kerning_margin_minimum_dim=\dimen182
+\l__xeCJK_bound_dim=\dimen183
+\l__xeCJK_reverse_bound_dim=\dimen184
+\l__xeCJK_margin_dim=\dimen185
+\l__xeCJK_minimum_bound_dim=\dimen186
+\l__xeCJK_kerning_margin_dim=\dimen187
+\g__xeCJK_family_int=\count298
+\l__xeCJK_fam_int=\count299
+\g__xeCJK_fam_allocation_int=\count300
+\l__xeCJK_verb_case_int=\count301
+\l__xeCJK_verb_exspace_skip=\skip61
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2026/08/11 v2.9h Font selection for XeLaTeX and LuaLaTeX
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2026/08/11 v2.9h Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count302
+\l__fontspec_language_int=\count303
+\l__fontspec_strnum_int=\count304
+\l__fontspec_tmp_int=\count305
+\l__fontspec_tmpa_int=\count306
+\l__fontspec_tmpb_int=\count307
+\l__fontspec_tmpc_int=\count308
+\l__fontspec_em_int=\count309
+\l__fontspec_emdef_int=\count310
+\l__fontspec_strong_int=\count311
+\l__fontspec_strongdef_int=\count312
+\l__fontspec_tmpa_dim=\dimen188
+\l__fontspec_tmpb_dim=\dimen189
+\l__fontspec_tmpc_dim=\dimen190
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+\l__xeCJK_default_char_int=\count313
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2026/08/21 v3.10.6 Configuration file for xeCJK package
+))
+\ccwd=\dimen191
+\l__ctex_ccglue_skip=\skip62
+)
+\l__ctex_ziju_dim=\dimen192
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2026/09/27 v3.1 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count314
+\l__zhnum_tmp_int=\count315
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2026/09/27 v3.1 Chinese numerals with UTF8 encoding
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2026/08/11 v2.6.5 Chinese scheme for generic (CTEX)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2026/08/11 v2.6.5 Caption with encoding UTF-8 (CTEX)
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2026/08/11 v2.6.5 c5size option (CTEX)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-fandol.def
+File: ctex-fontset-fandol.def 2026/08/11 v2.6.5 Fandol fonts definition (CTEX)
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'FandolSong-Regular'. Check the typeset output, and if
+(fontspec)             it is okay then ignore this warning. Otherwise a
+(fontspec)             different font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FandolSong-Regular(0)' created for font
+(fontspec)             'FandolSong-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolSong-Bold},ItalicFont={FandolKai-Regular}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Regular.otf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolSong-Bold.otf]/OT:script=hani;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[FandolKai-Regular.otf]/OT:script=hani;language=dflt;"
+
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex-scheme.cfg 2026/08/11 v2.6.5 Configuration file (CTEX)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen193
+\Gin@req@width=\dimen194
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2026/05/19 v2.18d AMS math features
+\@mathmargin=\skip63
+
+For additional information on amsmath, use the `?' option.
+(/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen195
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen196
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count316
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count317
+\leftroot@=\count318
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count319
+\DOTSCASE@=\count320
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box61
+\strutbox@=\box62
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen197
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count321
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count322
+\dotsspace@=\muskip17
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks19
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks20
+\eqnshift@=\dimen198
+\alignsep@=\dimen199
+\tagshift@=\dimen256
+\tagwidth@=\dimen257
+\totwidth@=\dimen258
+\lineht@=\dimen259
+\@envbody=\toks21
+\multlinegap=\skip64
+\multlinetaggap=\skip65
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen260
+\lightrulewidth=\dimen261
+\cmidrulewidth=\dimen262
+\belowrulesep=\dimen263
+\belowbottomsep=\dimen264
+\aboverulesep=\dimen265
+\abovetopsep=\dimen266
+\cmidrulesep=\dimen267
+\cmidrulekern=\dimen268
+\defaultaddspace=\dimen269
+\@cmidla=\count328
+\@cmidlb=\count329
+\@aboverulesep=\dimen270
+\@belowrulesep=\dimen271
+\@thisruleclass=\count330
+\@lastruleclass=\count331
+\@thisrulewidth=\dimen272
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
+\col@sep=\dimen273
+\ar@mcellbox=\box63
+\extrarowheight=\dimen274
+\NC@list=\toks23
+\extratabsurround=\skip66
+\backup@length=\skip67
+\ar@cellbox=\box64
+)
+\TX@col@width=\dimen275
+\TX@old@table=\dimen276
+\TX@old@col=\dimen277
+\TX@target=\dimen278
+\TX@delta=\dimen279
+\TX@cols=\count332
+\TX@ftn=\toks24
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen280
+\pgfutil@tempdimb=\dimen281
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box65
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2026-08-01 v3.1.12 (3.1.12)
+))
+Package: pgf 2026-08-01 v3.1.12 (3.1.12)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2026-08-01 v3.1.12 (3.1.12)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen282
+\pgf@y=\dimen283
+\pgf@xa=\dimen284
+\pgf@ya=\dimen285
+\pgf@xb=\dimen286
+\pgf@yb=\dimen287
+\pgf@xc=\dimen288
+\pgf@yc=\dimen289
+\pgf@xd=\dimen290
+\pgf@yd=\dimen291
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count333
+\c@pgf@countb=\count334
+\c@pgf@countc=\count335
+\c@pgf@countd=\count336
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count337
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2026-08-01 v3.1.12 (3.1.12)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2026-08-01 v3.1.12 (3.1.12)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2026-08-01 v3.1.12 (3.1.12)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2026-08-01 v3.1.12 (3.1.12)
+)
+\pgfsys@objnum=\count338
+))) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfsyssoftpath@smallbuffer@items=\count339
+\pgfsyssoftpath@bigbuffer@items=\count340
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2026-08-01 v3.1.12 (3.1.12)
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2026-08-01 v3.1.12 (3.1.12)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen292
+\pgfmath@count=\count341
+\pgfmath@box=\box66
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count342
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@picminx=\dimen293
+\pgf@picmaxx=\dimen294
+\pgf@picminy=\dimen295
+\pgf@picmaxy=\dimen296
+\pgf@pathminx=\dimen297
+\pgf@pathmaxx=\dimen298
+\pgf@pathminy=\dimen299
+\pgf@pathmaxy=\dimen300
+\pgf@xx=\dimen301
+\pgf@xy=\dimen302
+\pgf@yx=\dimen303
+\pgf@yy=\dimen304
+\pgf@zx=\dimen305
+\pgf@zy=\dimen306
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@path@lastx=\dimen307
+\pgf@path@lasty=\dimen308
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@shorten@end@additional=\dimen309
+\pgf@shorten@start@additional=\dimen310
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfpic=\box67
+\pgf@hbox=\box68
+\pgf@layerbox@main=\box69
+\pgf@picture@serial@count=\count343
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgflinewidth=\dimen311
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@pt@x=\dimen312
+\pgf@pt@y=\dimen313
+\pgf@pt@temp=\dimen314
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowsep=\dimen315
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@max=\dimen316
+\pgf@sys@shading@range@num=\count344
+\pgf@shadingcount=\count345
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfexternal@startupbox=\box70
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfnodeparttextbox=\box71
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2026-08-01 v3.1.12 (3.1.12)
+\pgf@nodesepstart=\dimen317
+\pgf@nodesepend=\dimen318
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2026-08-01 v3.1.12 (3.1.12)
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2026-08-01 v3.1.12 (3.1.12)
+\pgffor@iter=\dimen319
+\pgffor@skip=\dimen320
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+)) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2026-08-01 v3.1.12 (3.1.12)
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgf@plot@mark@count=\count346
+\pgfplotmarksize=\dimen321
+)
+\tikz@lastx=\dimen322
+\tikz@lasty=\dimen323
+\tikz@lastxsaved=\dimen324
+\tikz@lastysaved=\dimen325
+\tikz@lastmovetox=\dimen326
+\tikz@lastmovetoy=\dimen327
+\tikzleveldistance=\dimen328
+\tikzsiblingdistance=\dimen329
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count347
+\tikznumberofchildren=\count348
+\tikznumberofcurrentchild=\count349
+\tikz@fig@count=\count350
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfmatrixcurrentrow=\count351
+\pgfmatrixcurrentcolumn=\count352
+\pgf@matrix@numberofcolumns=\count353
+)
+\tikz@expandcount=\count354
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2026-08-01 v3.1.12 (3.1.12)
+))) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2026-08-01 v3.1.12 (3.1.12)
+) (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2026-08-01 v3.1.12 (3.1.12)
+\pgfarrowinset=\dimen330
+\pgfarrowlength=\dimen331
+\pgfarrowwidth=\dimen332
+\pgfarrowlinewidth=\dimen333
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 14.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 14.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 14.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 14.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 14.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 14.
+LaTeX Font Info:    Redeclaring math accent \check on input line 14.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 14.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 14.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 14.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 14.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 14.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 14.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 14.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 14.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 14.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 14.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+ (/home/xiaoyu/miniconda3/envs/mortis/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+]
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'FandolFang-Regular'. Check the typeset output, and if
+(fontspec)             it is okay then ignore this warning. Otherwise a
+(fontspec)             different font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'FandolFang-Regular(0)' created for font
+(fontspec)             'FandolFang-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolFang-Regular.otf]/OT:script=hani;language=dflt;"
+
+ [2] [3] [4] [5] [6] [7]
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 回 答 的 问
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/lmr/m/n/9.03374 2 \TU/FandolSong-Regular(0)/m/n/9.03374 层
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/lmr/m/n/9.03374 Trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/lmr/m/n/9.03374 former,
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 骨 干 与 电
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 影 表 示 都
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 序 列 建 模
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 的 基 础 水
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 仅 文 本 向
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 冷 门 桶 的
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 弱 势 来 自
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 骨 干 还 是
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 248--248
+[]|\TU/lmr/m/n/9.03374 ID + \TU/FandolSong-Regular(0)/m/n/9.03374 文
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 第 一 部 分
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 的 思 路 用
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 在 序 列 模
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 型 上 的 效
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 预 训 练
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/lmr/m/n/9.03374 GPT-2,
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 仅 文 本 向
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 同 结 构\TU/lmr/m/n/9.03374 ,
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 随 机 初 始
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 仅 文 本 向
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 只 换 初 始
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 预 训 练
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/lmr/m/n/9.03374 GPT-2,
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 仅 文 本 向
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 只 冻
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/FandolSong-Regular(0)/m/n/9.03374 结 \TU/lmr/m/n/9.03374 User
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 预 训 练
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\TU/lmr/m/n/9.03374 GPT-2,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 文 本 \TU/lmr/m/n/9.03374 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 只 加 \TU/lmr/m/n/9.03374 ID
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 267--267
+[]|\TU/FandolSong-Regular(0)/m/n/9.03374 同 结 构 随 机 初
+ []
+
+
+Overfull \hbox (32.09529pt too wide) in paragraph at lines 277--278
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 第 二 部 分 的 代 码 位 于 \TU/lmtt/m/n/10.53937 recommender/miniHLLM/\TU/lmr/m/n/10.53937 , \TU/FandolSong-Regular(0)/m/n/10.53937 约 \TU/lmr/m/n/10.53937 550 \TU/FandolSong-Regular(0)/m/n/10.53937 行\TU/lmr/m/n/10.53937 : \TU/lmtt/m/n/10.53937 item_features.py
+ []
+
+[9]
+Overfull \hbox (8.17464pt too wide) in paragraph at lines 295--311
+ [] 
+ []
+
+[10]
+Overfull \hbox (6.173pt too wide) in paragraph at lines 355--370
+ [][] 
+ []
+
+File: figures/overall_metrics.png Graphic file (type bmp)
+<figures/overall_metrics.png>
+
+Overfull \hbox (6.64609pt too wide) in paragraph at lines 401--402
+[]\TU/FandolSong-Regular(0)/m/n/10.53937 所 有 学 习 模 型 的 \TU/lmr/m/n/10.53937 NDCG@10 \TU/FandolSong-Regular(0)/m/n/10.53937 都 在 热 门 推 荐 的 \TU/lmr/m/n/10.53937 9 \TU/FandolSong-Regular(0)/m/n/10.53937 倍 以 上\TU/lmr/m/n/10.53937 . H1 \TU/FandolSong-Regular(0)/m/n/10.53937 的 \TU/lmr/m/n/10.53937 NDCG@10
+ []
+
+[11] [12]
+File: figures/training_curves.png Graphic file (type bmp)
+<figures/training_curves.png>
+File: figures/coldstart_buckets.png Graphic file (type bmp)
+<figures/coldstart_buckets.png>
+ [13] [14] [15] [16] [17] [18] [19] (./report.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026/08/11>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 19644 strings out of 469676
+ 481650 string characters out of 5462788
+ 888331 words of memory out of 5000000
+ 48337 multiletter control sequences out of 15000+600000
+ 642336 words of font info for 136 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 93i,10n,112p,766b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on report.xdv (19 pages, 253744 bytes).

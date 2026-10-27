@@ -40,7 +40,7 @@ python train.py --tag hllm_text --backbone gpt2 --use_text --lr 1e-4 --max_len 1
 python train.py --tag sasrec_id --backbone sasrec --use_id --item_dim 64 --dropout 0.1 --lr 1e-3
 ```
 
-`train.py` 的开关：`--backbone sasrec|gpt2`、`--use_text`、`--use_id`、`--no_pretrained`（GPT-2 随机初始化）、`--freeze_backbone`（冻结 GPT-2 只训适配器）、`--scoring cosine|dot`、`--pooling mean|last`。
+`train.py` 的开关：`--backbone sasrec|gpt2`、`--use_text`、`--use_id`、`--no_pretrained`（GPT-2 随机初始化）、`--freeze_backbone`（冻结 GPT-2 只训适配器）、`--pooling mean|last`。
 
 ## 结果（测试集，3 种子均值 ± 样本标准差）
 
@@ -77,8 +77,8 @@ python train.py --tag sasrec_id --backbone sasrec --use_id --item_dim 64 --dropo
 
 ## 设计过程中的两个坑
 
-- GPT-2 隐藏状态各向异性很强，所有电影向量共享一个巨大的公共方向。不做逐维标准化时，点积打分下模型坍缩到均匀分布；标准化后 GPT-2 版本 2 轮的验证 HR@10 从 0.04 升到 0.13。
-- 打分统一用余弦加可学习温度。点积在 SASRec 纯 ID 上略好（约 0.5 个点），但在 GPT-2 加文本上不稳定；所有模型用同一打分函数以保证可比。评测分数强制 fp32，bf16 在大数值下会把成千上万部电影判成同分。
+- GPT-2 隐藏状态各向异性很强，所有电影向量共享一个巨大的公共方向，任意两部电影的余弦都在 0.9 以上。对特征做逐维标准化后，GPT-2 版本 2 轮的验证 HR@10 从 0.04 升到 0.13。
+- 打分用余弦相似度加可学习温度 τ，与 HLLM 的 InfoNCE 形式一致。评测分数强制 fp32 计算，bf16 在大数值下分辨率不够，会把大量电影判成同分；排名按悲观处理，同分算排在目标前面。
 
 ## 文件
 
@@ -93,5 +93,5 @@ python train.py --tag sasrec_id --backbone sasrec --use_id --item_dim 64 --dropo
 | `weight/item_text_features.pt` | 电影文本特征 (3953×768)，两种池化 |
 | `weight/ckpt/` | 种子 42 的最佳权重（不入库） |
 | `results/main/` | 每次运行的日志与 json，`summary.md` |
-| `results/sweep*`、`results/diag/` | 定超参用的短训练记录 |
+| `results/sweep/`、`results/diag/` | 定超参用的短训练记录（学习率、序列长度） |
 | `figures/` | 训练曲线、整体指标、冷启动分桶 |

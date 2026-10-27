@@ -12,6 +12,11 @@ from dataset import ML1MDataset
 from recommender import HybridRecommender
 from trainer import Trainer
 
+# 路径以文件位置为准，与当前工作目录无关。
+HERE = Path(__file__).resolve().parent          # recommender/base_LLM_NCF
+ROOT = HERE.parents[1]                          # 仓库根目录
+WEIGHT_DIR = HERE / "weight"
+
 
 def main(args):
     # 固定随机种子，方便课堂演示和不同同学之间比较结果。
@@ -24,7 +29,7 @@ def main(args):
 
     if not Path(args.features).is_file():
         raise FileNotFoundError(
-            f"找不到 {args.features}，请先运行 python gpt2.py"
+            f"找不到 {args.features}，请先运行 python {HERE / 'gpt2.py'}"
         )
 
     # 1. 读取 ML-1M，并取得固定的训练、验证、测试划分。
@@ -85,7 +90,11 @@ def main(args):
         epochs=args.epochs,
         lr=args.lr,
     )
-    valid_result, test_result = trainer.fit(save_model=True)
+    # 快速模式另存，避免覆盖全量训练得到的 checkpoint.pth。
+    ckpt_name = "checkpoint_quick.pth" if args.quick else "checkpoint.pth"
+    valid_result, test_result = trainer.fit(
+        save_model=True, model_path=str(WEIGHT_DIR / ckpt_name)
+    )
     print("Best validation:", valid_result)
     print("Test:", test_result)
 
@@ -109,8 +118,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data_path", default="ml-1m")
-    parser.add_argument("--features", default="movie_features.pt")
+    parser.add_argument("--data_path", default=str(ROOT / "ml-1m"))
+    parser.add_argument("--features", default=str(WEIGHT_DIR / "movie_features.pt"))
     parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--batch_size", type=int, default=2048)
     parser.add_argument("--eval_batch_size", type=int, default=64)

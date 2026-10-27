@@ -1,12 +1,12 @@
 #!/bin/bash
-# miniHLLM 正式实验：6 个模型 × 3 个种子，全部余弦打分、序列长 100、最多 200 轮、耐心 20。
+# miniHLLM 正式实验：6 个模型 × 3 个种子，序列长 100、最多 200 轮、耐心 20。
 # 用法：./run_all.sh            # 顺序执行 A 再 B（GPT-2 单个进程约 21G 显存，不能并行）
 #       ./run_all.sh A | B      # 只跑其中一条
 cd "$(dirname "$0")"
 export PYTHONWARNINGS=ignore
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 OUT=results/main
-COMMON="--max_len 100 --epochs 200 --patience 20 --scoring cosine --out_dir $OUT"
+COMMON="--max_len 100 --epochs 200 --patience 20 --out_dir $OUT"
 SEEDS="42 2026 3407"
 
 run() {  # run <tag> <seed> <args...>

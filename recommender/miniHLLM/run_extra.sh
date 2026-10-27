@@ -4,7 +4,7 @@ cd "$(dirname "$0")"
 export PYTHONWARNINGS=ignore
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 OUT=results/main
-COMMON="--max_len 100 --patience 20 --scoring cosine --out_dir $OUT"
+COMMON="--max_len 100 --patience 20 --out_dir $OUT"
 SEEDS="42 2026 3407"
 run() { tag=$1; seed=$2; shift 2
   [ -f $OUT/${tag}_seed${seed}.json ] && return

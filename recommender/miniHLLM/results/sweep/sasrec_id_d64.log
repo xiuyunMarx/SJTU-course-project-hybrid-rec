@@ -1,0 +1,41 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=50
+Model: sasrec_id_d64  trainable params: 360,449  device: cuda
+Epoch   1: loss=8.1867  valid HR@10=0.0371  NDCG@10=0.0160  tau=0.052
+Epoch   2: loss=7.5323  valid HR@10=0.0366  NDCG@10=0.0188  tau=0.053
+Epoch   3: loss=7.5064  valid HR@10=0.0392  NDCG@10=0.0193  tau=0.053
+Epoch   4: loss=7.4851  valid HR@10=0.0421  NDCG@10=0.0215  tau=0.054
+Epoch   5: loss=7.4669  valid HR@10=0.0445  NDCG@10=0.0224  tau=0.056
+Epoch   6: loss=7.4467  valid HR@10=0.0467  NDCG@10=0.0249  tau=0.057
+Epoch   7: loss=7.4323  valid HR@10=0.0435  NDCG@10=0.0221  tau=0.058
+Epoch   8: loss=7.4168  valid HR@10=0.0435  NDCG@10=0.0223  tau=0.059
+Epoch   9: loss=7.4045  valid HR@10=0.0462  NDCG@10=0.0222  tau=0.060
+Epoch  10: loss=7.3911  valid HR@10=0.0462  NDCG@10=0.0219  tau=0.061
+Epoch  11: loss=7.3803  valid HR@10=0.0464  NDCG@10=0.0241  tau=0.063
+Epoch  12: loss=7.3694  valid HR@10=0.0464  NDCG@10=0.0222  tau=0.064
+Epoch  13: loss=7.3604  valid HR@10=0.0464  NDCG@10=0.0230  tau=0.065
+Epoch  14: loss=7.3526  valid HR@10=0.0452  NDCG@10=0.0227  tau=0.066
+Epoch  15: loss=7.3440  valid HR@10=0.0452  NDCG@10=0.0228  tau=0.066
+Best epoch 6  valid: HR@10=0.0467 NDCG@10=0.0249
+Test: HR@10=0.0414 NDCG@10=0.0213 HR@20=0.0724 NDCG@20=0.0290
+        pop[0,100)  n= 507  HR@10=0.0000  NDCG@10=0.0000
+      pop[100,500)  n=2195  HR@10=0.0000  NDCG@10=0.0000
+      pop[500,inf)  n=3338  HR@10=0.0749  NDCG@10=0.0385
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      2987: Who Framed Roger Rabbit? (1988)
+      3793: X-Men (2000)
+      2628: Star Wars: Episode I - The Phantom Menace (1999)
+      3751: Chicken Run (2000)
+      2763: Thomas Crown Affair, The (1999)
+      3578: Gladiator (2000)
+      356: Forrest Gump (1994)
+      3623: Mission: Impossible 2 (2000)
+      367: Mask, The (1994)
+      110: Braveheart (1995)
+Wrote results/sweep/sasrec_id_d64_seed42.json

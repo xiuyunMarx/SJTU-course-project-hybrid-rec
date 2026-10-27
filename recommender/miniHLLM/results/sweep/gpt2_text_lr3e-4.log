@@ -1,0 +1,36 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=50
+Model: gpt2_text_lr3e-4  trainable params: 87,615,745  device: cuda
+Epoch   1: loss=7.9952  valid HR@10=0.0421  NDCG@10=0.0204  tau=0.050
+Epoch   2: loss=7.8318  valid HR@10=0.0485  NDCG@10=0.0233  tau=0.050
+Epoch   3: loss=7.7299  valid HR@10=0.0401  NDCG@10=0.0196  tau=0.050
+Epoch   4: loss=7.6705  valid HR@10=0.0455  NDCG@10=0.0208  tau=0.050
+Epoch   5: loss=7.6373  valid HR@10=0.0545  NDCG@10=0.0244  tau=0.050
+Epoch   6: loss=7.5702  valid HR@10=0.0561  NDCG@10=0.0272  tau=0.050
+Epoch   7: loss=7.5141  valid HR@10=0.0599  NDCG@10=0.0300  tau=0.050
+Epoch   8: loss=7.4482  valid HR@10=0.0651  NDCG@10=0.0325  tau=0.050
+Epoch   9: loss=7.3634  valid HR@10=0.0719  NDCG@10=0.0372  tau=0.050
+Epoch  10: loss=7.3204  valid HR@10=0.0737  NDCG@10=0.0361  tau=0.050
+Best epoch 9  valid: HR@10=0.0719 NDCG@10=0.0372
+Test: HR@10=0.0675 NDCG@10=0.0352 HR@20=0.1078 NDCG@20=0.0452
+        pop[0,100)  n= 507  HR@10=0.0020  NDCG@10=0.0006
+      pop[100,500)  n=2195  HR@10=0.0105  NDCG@10=0.0049
+      pop[500,inf)  n=3338  HR@10=0.1150  NDCG@10=0.0603
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      2081: Little Mermaid, The (1989)
+      1032: Alice in Wonderland (1951)
+      356: Forrest Gump (1994)
+      3751: Chicken Run (2000)
+      1073: Willy Wonka and the Chocolate Factory (1971)
+      2087: Peter Pan (1953)
+      2096: Sleeping Beauty (1959)
+      1136: Monty Python and the Holy Grail (1974)
+      2987: Who Framed Roger Rabbit? (1988)
+      364: Lion King, The (1994)
+Wrote results/sweep/gpt2_text_lr3e-4_seed42.json

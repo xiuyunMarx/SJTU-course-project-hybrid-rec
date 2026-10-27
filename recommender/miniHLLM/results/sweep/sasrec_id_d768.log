@@ -1,0 +1,41 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=50
+Model: sasrec_id_d768  trainable params: 17,842,177  device: cuda
+Epoch   1: loss=7.5838  valid HR@10=0.0414  NDCG@10=0.0211  tau=0.052
+Epoch   2: loss=7.4796  valid HR@10=0.0425  NDCG@10=0.0212  tau=0.053
+Epoch   3: loss=7.4617  valid HR@10=0.0439  NDCG@10=0.0221  tau=0.055
+Epoch   4: loss=7.4469  valid HR@10=0.0460  NDCG@10=0.0238  tau=0.056
+Epoch   5: loss=7.4290  valid HR@10=0.0480  NDCG@10=0.0227  tau=0.057
+Epoch   6: loss=7.4080  valid HR@10=0.0427  NDCG@10=0.0197  tau=0.058
+Epoch   7: loss=7.3848  valid HR@10=0.0394  NDCG@10=0.0176  tau=0.059
+Epoch   8: loss=7.3589  valid HR@10=0.0490  NDCG@10=0.0233  tau=0.059
+Epoch   9: loss=7.3351  valid HR@10=0.0459  NDCG@10=0.0226  tau=0.060
+Epoch  10: loss=7.3166  valid HR@10=0.0440  NDCG@10=0.0217  tau=0.061
+Epoch  11: loss=7.2970  valid HR@10=0.0437  NDCG@10=0.0228  tau=0.061
+Epoch  12: loss=7.2829  valid HR@10=0.0482  NDCG@10=0.0225  tau=0.062
+Epoch  13: loss=7.2711  valid HR@10=0.0432  NDCG@10=0.0222  tau=0.063
+Epoch  14: loss=7.2628  valid HR@10=0.0460  NDCG@10=0.0226  tau=0.063
+Epoch  15: loss=7.2561  valid HR@10=0.0417  NDCG@10=0.0203  tau=0.064
+Best epoch 4  valid: HR@10=0.0460 NDCG@10=0.0238
+Test: HR@10=0.0482 NDCG@10=0.0235 HR@20=0.0834 NDCG@20=0.0324
+        pop[0,100)  n= 507  HR@10=0.0000  NDCG@10=0.0000
+      pop[100,500)  n=2195  HR@10=0.0046  NDCG@10=0.0017
+      pop[500,inf)  n=3338  HR@10=0.0842  NDCG@10=0.0414
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      3753: Patriot, The (2000)
+      2987: Who Framed Roger Rabbit? (1988)
+      3793: X-Men (2000)
+      3897: Almost Famous (2000)
+      2628: Star Wars: Episode I - The Phantom Menace (1999)
+      2763: Thomas Crown Affair, The (1999)
+      3911: Best in Show (2000)
+      3948: Meet the Parents (2000)
+      2858: American Beauty (1999)
+      367: Mask, The (1994)
+Wrote results/sweep/sasrec_id_d768_seed42.json

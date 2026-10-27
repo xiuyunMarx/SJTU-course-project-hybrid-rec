@@ -1,0 +1,63 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=100
+Model: hllm_text_scratch_lr1e-4  trainable params: 87,615,745  device: cuda
+Epoch   1: loss=7.4637  valid HR@10=0.1250  NDCG@10=0.0687  tau=0.050  peak_mem=13.2G
+Epoch   2: loss=6.6879  valid HR@10=0.1796  NDCG@10=0.1040  tau=0.050  peak_mem=13.2G
+Epoch   3: loss=6.3500  valid HR@10=0.2126  NDCG@10=0.1222  tau=0.049  peak_mem=13.2G
+Epoch   4: loss=6.1273  valid HR@10=0.2338  NDCG@10=0.1334  tau=0.049  peak_mem=13.2G
+Epoch   5: loss=5.9415  valid HR@10=0.2502  NDCG@10=0.1439  tau=0.049  peak_mem=13.2G
+Epoch   6: loss=5.7952  valid HR@10=0.2591  NDCG@10=0.1517  tau=0.049  peak_mem=13.2G
+Epoch   7: loss=5.6554  valid HR@10=0.2743  NDCG@10=0.1595  tau=0.048  peak_mem=13.2G
+Epoch   8: loss=5.5433  valid HR@10=0.2841  NDCG@10=0.1641  tau=0.048  peak_mem=13.2G
+Epoch   9: loss=5.4281  valid HR@10=0.2869  NDCG@10=0.1689  tau=0.048  peak_mem=13.2G
+Epoch  10: loss=5.3186  valid HR@10=0.2896  NDCG@10=0.1682  tau=0.048  peak_mem=13.2G
+Epoch  11: loss=5.2150  valid HR@10=0.2902  NDCG@10=0.1708  tau=0.047  peak_mem=13.2G
+Epoch  12: loss=5.1150  valid HR@10=0.2929  NDCG@10=0.1710  tau=0.047  peak_mem=13.2G
+Epoch  13: loss=5.0041  valid HR@10=0.2924  NDCG@10=0.1725  tau=0.047  peak_mem=13.2G
+Epoch  14: loss=4.8917  valid HR@10=0.2964  NDCG@10=0.1727  tau=0.046  peak_mem=13.2G
+Epoch  15: loss=4.7773  valid HR@10=0.2944  NDCG@10=0.1729  tau=0.046  peak_mem=13.2G
+Epoch  16: loss=4.6545  valid HR@10=0.3002  NDCG@10=0.1758  tau=0.046  peak_mem=13.2G
+Epoch  17: loss=4.5385  valid HR@10=0.2982  NDCG@10=0.1748  tau=0.045  peak_mem=13.2G
+Epoch  18: loss=4.4095  valid HR@10=0.2930  NDCG@10=0.1745  tau=0.045  peak_mem=13.2G
+Epoch  19: loss=4.2798  valid HR@10=0.2960  NDCG@10=0.1723  tau=0.045  peak_mem=13.2G
+Epoch  20: loss=4.1452  valid HR@10=0.2889  NDCG@10=0.1705  tau=0.044  peak_mem=13.2G
+Epoch  21: loss=4.0102  valid HR@10=0.2861  NDCG@10=0.1687  tau=0.044  peak_mem=13.2G
+Epoch  22: loss=3.8674  valid HR@10=0.2795  NDCG@10=0.1637  tau=0.044  peak_mem=13.2G
+Epoch  23: loss=3.7211  valid HR@10=0.2773  NDCG@10=0.1623  tau=0.044  peak_mem=13.2G
+Epoch  24: loss=3.5763  valid HR@10=0.2796  NDCG@10=0.1636  tau=0.043  peak_mem=13.2G
+Epoch  25: loss=3.4301  valid HR@10=0.2685  NDCG@10=0.1573  tau=0.043  peak_mem=13.2G
+Epoch  26: loss=3.2909  valid HR@10=0.2715  NDCG@10=0.1570  tau=0.043  peak_mem=13.2G
+Epoch  27: loss=3.1436  valid HR@10=0.2579  NDCG@10=0.1497  tau=0.042  peak_mem=13.2G
+Epoch  28: loss=2.9991  valid HR@10=0.2619  NDCG@10=0.1527  tau=0.042  peak_mem=13.2G
+Epoch  29: loss=2.8523  valid HR@10=0.2578  NDCG@10=0.1489  tau=0.042  peak_mem=13.2G
+Epoch  30: loss=2.7076  valid HR@10=0.2475  NDCG@10=0.1453  tau=0.042  peak_mem=13.2G
+Epoch  31: loss=2.5707  valid HR@10=0.2515  NDCG@10=0.1478  tau=0.041  peak_mem=13.2G
+Epoch  32: loss=2.4291  valid HR@10=0.2434  NDCG@10=0.1399  tau=0.041  peak_mem=13.2G
+Epoch  33: loss=2.2966  valid HR@10=0.2359  NDCG@10=0.1384  tau=0.041  peak_mem=13.2G
+Epoch  34: loss=2.1616  valid HR@10=0.2336  NDCG@10=0.1361  tau=0.041  peak_mem=13.2G
+Epoch  35: loss=2.0303  valid HR@10=0.2361  NDCG@10=0.1382  tau=0.040  peak_mem=13.2G
+Epoch  36: loss=1.9022  valid HR@10=0.2305  NDCG@10=0.1353  tau=0.040  peak_mem=13.2G
+Early stopping at epoch 36; best epoch 16
+Best epoch 16  valid: HR@10=0.3002 NDCG@10=0.1758
+Test: HR@10=0.2803 NDCG@10=0.1680 HR@20=0.3700 NDCG@20=0.1907
+        pop[0,100)  n= 507  HR@10=0.0750  NDCG@10=0.0413
+      pop[100,500)  n=2195  HR@10=0.1991  NDCG@10=0.1133
+      pop[500,inf)  n=3338  HR@10=0.3649  NDCG@10=0.2232
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      364: Lion King, The (1994)
+      2394: Prince of Egypt, The (1998)
+    * 48: Pocahontas (1995)
+      1588: George of the Jungle (1997)
+      1688: Anastasia (1997)
+      2092: Return of Jafar, The (1993)
+      1025: Sword in the Stone, The (1963)
+      586: Home Alone (1990)
+      317: Santa Clause, The (1994)
+      1367: 101 Dalmatians (1996)
+Wrote results/main/hllm_text_scratch_lr1e-4_seed2026.json

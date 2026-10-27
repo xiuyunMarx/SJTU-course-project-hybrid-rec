@@ -1,69 +1,0 @@
-Benchmark config: {"models": ["popularity", "ncf", "hybrid"], "seeds": [42, 2026, 3407], "data_path": "ml-1m", "features": "movie_features.pt", "epochs": 3, "batch_size": 2048, "eval_batch_size": 16, "embed_dim": 32, "lr": 0.001, "device": "cuda", "output_dir": "results/server1", "checkpoint_dir": "artifacts/benchmarks", "quick": false}
-Environment: {"python": "3.10.19", "os": "Linux", "architecture": "x86_64", "packages": {"numpy": "2.2.6", "pandas": "2.2.2", "torch": "2.5.1+cu121", "tqdm": "4.67.1", "transformers": "4.57.3"}, "device": "cuda", "cuda_runtime": "12.1", "cudnn_version": 90100, "gpu_name": "NVIDIA GeForce RTX 3060", "deterministic_algorithms": true, "cublas_workspace_config": ":4096:8", "cudnn_benchmark": false, "cudnn_allow_tf32": false, "matmul_allow_tf32": false, "torch_num_threads": 12}
-Dataset: {"split_random_state": 42, "split_ratio": [0.8, 0.1, 0.1], "item_id_space": 3953, "catalog_items": 3883, "splits": {"train": {"interactions": 800167, "users": 6040}, "validation": {"interactions": 100021, "users": 5949}, "test": {"interactions": 100021, "users": 5958}}}
-
-Model: popularity; seed: None; device: cuda
-Best validation: {'HR@10': 0.49840309295679946, 'HR@20': 0.6446461590183225, 'NDCG@10': 0.11485642359563121, 'NDCG@20': 0.1204562603520678}
-Test: {'HR@10': 0.4909365558912387, 'HR@20': 0.6362873447465592, 'NDCG@10': 0.1091853407592911, 'NDCG@20': 0.11605178964458683}
-Elapsed seconds: 2.95
-
-Model: ncf; seed: 42; device: cuda
-Initial negative samples SHA256: 235d58acdf7d28ae09eaadb0b258fdd6be06ff97eba67b5b586531854f5b1ff6
-Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.4027, HR@10=0.5003, NDCG@10=0.1116
-Training:  33%|███▎      | 1/3 [00:02<00:04,  2.45s/it]Epoch 2: loss=0.3447, HR@10=0.4989, NDCG@10=0.1123
-Training:  67%|██████▋   | 2/3 [00:04<00:02,  2.32s/it]Epoch 3: loss=0.3412, HR@10=0.4997, NDCG@10=0.1116
-Training: 100%|██████████| 3/3 [00:06<00:00,  2.27s/it]Training: 100%|██████████| 3/3 [00:06<00:00,  2.30s/it]
-Best validation: {'HR@10': 0.4989073793914944, 'HR@20': 0.635569003193814, 'NDCG@10': 0.11229778421384322, 'NDCG@20': 0.11684583849175444}
-Test: {'HR@10': 0.49177576367908693, 'HR@20': 0.6243705941591138, 'NDCG@10': 0.1072349959478578, 'NDCG@20': 0.11264740724424055}
-Elapsed seconds: 13.95
-
-Model: ncf; seed: 2026; device: cuda
-Initial negative samples SHA256: b04f37db9903cc9d5f85af5bbd652ac5fe01b5603fd69c3d400ad43874046fe0
-Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.4031, HR@10=0.5085, NDCG@10=0.1095
-Training:  33%|███▎      | 1/3 [00:02<00:04,  2.23s/it]Epoch 2: loss=0.3448, HR@10=0.5001, NDCG@10=0.1092
-Training:  67%|██████▋   | 2/3 [00:04<00:02,  2.22s/it]Epoch 3: loss=0.3415, HR@10=0.4947, NDCG@10=0.1099
-Training: 100%|██████████| 3/3 [00:06<00:00,  2.22s/it]Training: 100%|██████████| 3/3 [00:06<00:00,  2.22s/it]
-Best validation: {'HR@10': 0.4947049924357035, 'HR@20': 0.6350647167591191, 'NDCG@10': 0.10988705287196047, 'NDCG@20': 0.11478256031798381}
-Test: {'HR@10': 0.48338368580060426, 'HR@20': 0.6265525344075193, 'NDCG@10': 0.10495907429479956, 'NDCG@20': 0.11142023274374782}
-Elapsed seconds: 13.22
-
-Model: ncf; seed: 3407; device: cuda
-Initial negative samples SHA256: 10e74da77ad14fff7e4cb8531dae94f4287f30a10f32f61bae0e4e1c05352e61
-Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.4072, HR@10=0.5008, NDCG@10=0.1111
-Training:  33%|███▎      | 1/3 [00:02<00:04,  2.23s/it]Epoch 2: loss=0.3459, HR@10=0.4984, NDCG@10=0.1107
-Training:  67%|██████▋   | 2/3 [00:04<00:02,  2.24s/it]Epoch 3: loss=0.3427, HR@10=0.5008, NDCG@10=0.1117
-Training: 100%|██████████| 3/3 [00:06<00:00,  2.24s/it]Training: 100%|██████████| 3/3 [00:06<00:00,  2.24s/it]
-Best validation: {'HR@10': 0.5007564296520424, 'HR@20': 0.6390990082366784, 'NDCG@10': 0.11171060812866689, 'NDCG@20': 0.11758955515130592}
-Test: {'HR@10': 0.4919436052366566, 'HR@20': 0.6341054044981538, 'NDCG@10': 0.10627774612661811, 'NDCG@20': 0.11334184995948782}
-Elapsed seconds: 13.34
-
-Model: hybrid; seed: 42; device: cuda
-Initial negative samples SHA256: 235d58acdf7d28ae09eaadb0b258fdd6be06ff97eba67b5b586531854f5b1ff6
-Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.3949, HR@10=0.4950, NDCG@10=0.1088
-Training:  33%|███▎      | 1/3 [00:03<00:06,  3.19s/it]Epoch 2: loss=0.3369, HR@10=0.5287, NDCG@10=0.1256
-Training:  67%|██████▋   | 2/3 [00:06<00:03,  3.22s/it]Epoch 3: loss=0.3239, HR@10=0.5327, NDCG@10=0.1275
-Training: 100%|██████████| 3/3 [00:09<00:00,  3.22s/it]Training: 100%|██████████| 3/3 [00:09<00:00,  3.21s/it]
-Best validation: {'HR@10': 0.5326945705160531, 'HR@20': 0.6528828374516725, 'NDCG@10': 0.12750391016143856, 'NDCG@20': 0.129768432539061}
-Test: {'HR@10': 0.5208123531386372, 'HR@20': 0.649546827794562, 'NDCG@10': 0.1227379039846948, 'NDCG@20': 0.12773836153773122}
-Elapsed seconds: 16.89
-
-Model: hybrid; seed: 2026; device: cuda
-Initial negative samples SHA256: b04f37db9903cc9d5f85af5bbd652ac5fe01b5603fd69c3d400ad43874046fe0
-Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.3959, HR@10=0.5043, NDCG@10=0.1090
-Training:  33%|███▎      | 1/3 [00:03<00:06,  3.19s/it]Epoch 2: loss=0.3346, HR@10=0.5335, NDCG@10=0.1288
-Training:  67%|██████▋   | 2/3 [00:06<00:03,  3.22s/it]Epoch 3: loss=0.3138, HR@10=0.5317, NDCG@10=0.1265
-Training: 100%|██████████| 3/3 [00:09<00:00,  3.20s/it]Training: 100%|██████████| 3/3 [00:09<00:00,  3.20s/it]
-Best validation: {'HR@10': 0.5335350479072113, 'HR@20': 0.6570852244074634, 'NDCG@10': 0.12881505776147512, 'NDCG@20': 0.1312853587743193}
-Test: {'HR@10': 0.5219872440416247, 'HR@20': 0.6487076200067137, 'NDCG@10': 0.12430270733093682, 'NDCG@20': 0.12780798838969493}
-Elapsed seconds: 17.05
-
-Model: hybrid; seed: 3407; device: cuda
-Initial negative samples SHA256: 10e74da77ad14fff7e4cb8531dae94f4287f30a10f32f61bae0e4e1c05352e61
-Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1: loss=0.3970, HR@10=0.4987, NDCG@10=0.1101
-Training:  33%|███▎      | 1/3 [00:03<00:06,  3.18s/it]Epoch 2: loss=0.3414, HR@10=0.5275, NDCG@10=0.1241
-Training:  67%|██████▋   | 2/3 [00:06<00:03,  3.23s/it]Epoch 3: loss=0.3212, HR@10=0.5364, NDCG@10=0.1271
-Training: 100%|██████████| 3/3 [00:09<00:00,  3.24s/it]Training: 100%|██████████| 3/3 [00:09<00:00,  3.23s/it]
-Best validation: {'HR@10': 0.536392671037149, 'HR@20': 0.6575895108421583, 'NDCG@10': 0.12712659885429287, 'NDCG@20': 0.13059047547100044}
-Test: {'HR@10': 0.5268546492111447, 'HR@20': 0.6477005706612957, 'NDCG@10': 0.12361046989515327, 'NDCG@20': 0.1278126501571567}
-Elapsed seconds: 17.06
-Completed 7 runs. Summary: results/server1/summary.csv

@@ -1,0 +1,163 @@
+{
+  "args": {
+    "tag": "gpt2_scratch_lr3e-4",
+    "model": "seq",
+    "backbone": "gpt2",
+    "use_text": true,
+    "use_id": false,
+    "pooling": "mean",
+    "no_pretrained": true,
+    "freeze_backbone": false,
+    "item_dim": 768,
+    "layers": 2,
+    "heads": 2,
+    "dropout": 0.2,
+    "temperature": 0.05,
+    "scoring": "cosine",
+    "max_len": 50,
+    "epochs": 10,
+    "patience": 10,
+    "batch_size": 128,
+    "eval_batch_size": 512,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "seed": 42,
+    "buckets": [
+      100,
+      500
+    ],
+    "case_user_row": 0,
+    "save_ckpt": false,
+    "device": "cuda",
+    "data_path": "/home/xiaoyu/SJTU/ml-1m",
+    "gpt2_path": "/home/xiaoyu/SJTU/gpt2_model",
+    "features": "/home/xiaoyu/SJTU/recommender/miniHLLM/weight/item_text_features.pt",
+    "out_dir": "results/sweep"
+  },
+  "trainable_params": 87615745,
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 7.996547412872315,
+      "HR@10": 0.023178808391094208,
+      "NDCG@10": 0.011088293977081776
+    },
+    {
+      "epoch": 2,
+      "loss": 7.8707645662573,
+      "HR@10": 0.03907284885644913,
+      "NDCG@10": 0.018739141523838043
+    },
+    {
+      "epoch": 3,
+      "loss": 7.78813818874738,
+      "HR@10": 0.04188741743564606,
+      "NDCG@10": 0.022108901292085648
+    },
+    {
+      "epoch": 4,
+      "loss": 7.71641668483911,
+      "HR@10": 0.044039733707904816,
+      "NDCG@10": 0.02194264903664589
+    },
+    {
+      "epoch": 5,
+      "loss": 7.667188409464249,
+      "HR@10": 0.05049668997526169,
+      "NDCG@10": 0.023611675947904587
+    },
+    {
+      "epoch": 6,
+      "loss": 7.600168451094469,
+      "HR@10": 0.05049668997526169,
+      "NDCG@10": 0.02458728291094303
+    },
+    {
+      "epoch": 7,
+      "loss": 7.560921996792421,
+      "HR@10": 0.05463576316833496,
+      "NDCG@10": 0.02630024030804634
+    },
+    {
+      "epoch": 8,
+      "loss": 7.507743771660407,
+      "HR@10": 0.047847680747509,
+      "NDCG@10": 0.02407015860080719
+    },
+    {
+      "epoch": 9,
+      "loss": 7.512782941275085,
+      "HR@10": 0.051324501633644104,
+      "NDCG@10": 0.025810444727540016
+    },
+    {
+      "epoch": 10,
+      "loss": 7.459320077832961,
+      "HR@10": 0.054801326245069504,
+      "NDCG@10": 0.0271000973880291
+    }
+  ],
+  "best_epoch": 10,
+  "valid": {
+    "HR@10": 0.054801326245069504,
+    "NDCG@10": 0.0271000973880291,
+    "HR@20": 0.09486754983663559,
+    "NDCG@20": 0.03715316951274872,
+    "n_users": 6040,
+    "buckets": {
+      "pop[0,100)": {
+        "HR@10": 0.0,
+        "NDCG@10": 0.0,
+        "HR@20": 0.0,
+        "NDCG@20": 0.0,
+        "n_users": 502
+      },
+      "pop[100,500)": {
+        "HR@10": 0.0018206645036116242,
+        "NDCG@10": 0.0007953685126267374,
+        "HR@20": 0.0036413290072232485,
+        "NDCG@20": 0.0012662397930398583,
+        "n_users": 2197
+      },
+      "pop[500,inf)": {
+        "HR@10": 0.09787488728761673,
+        "NDCG@10": 0.0484696626663208,
+        "HR@20": 0.16911104321479797,
+        "NDCG@20": 0.06633438915014267,
+        "n_users": 3341
+      }
+    }
+  },
+  "test": {
+    "HR@10": 0.05049668997526169,
+    "NDCG@10": 0.025417432188987732,
+    "HR@20": 0.08791390806436539,
+    "NDCG@20": 0.03486230969429016,
+    "n_users": 6040,
+    "buckets": {
+      "pop[0,100)": {
+        "HR@10": 0.0,
+        "NDCG@10": 0.0,
+        "HR@20": 0.0,
+        "NDCG@20": 0.0,
+        "n_users": 507
+      },
+      "pop[100,500)": {
+        "HR@10": 0.001822323421947658,
+        "NDCG@10": 0.0006589075783267617,
+        "HR@20": 0.004100227728486061,
+        "NDCG@20": 0.001222505234181881,
+        "n_users": 2195
+      },
+      "pop[500,inf)": {
+        "HR@10": 0.09017375856637955,
+        "NDCG@10": 0.045558713376522064,
+        "HR@20": 0.15638107061386108,
+        "NDCG@20": 0.062278296798467636,
+        "n_users": 3338
+      }
+    }
+  },
+  "train_seconds": 216.3915877342224,
+  "case_study": "User 1 最近观看：\n    2355: Bug's Life, A (1998)\n    2294: Antz (1998)\n    783: Hunchback of Notre Dame, The (1996)\n    1566: Hercules (1997)\n    1907: Mulan (1998)\n  真实下一部：48: Pocahontas (1995)\n  Top-10 推荐：\n      2858: American Beauty (1999)\n      2997: Being John Malkovich (1999)\n      2396: Shakespeare in Love (1998)\n      318: Shawshank Redemption, The (1994)\n      593: Silence of the Lambs, The (1991)\n      2716: Ghostbusters (1984)\n      1136: Monty Python and the Holy Grail (1974)\n      3481: High Fidelity (2000)\n      356: Forrest Gump (1994)\n      2683: Austin Powers: The Spy Who Shagged Me (1999)"
+}

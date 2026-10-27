@@ -1,0 +1,102 @@
+{
+  "args": {
+    "tag": "popularity",
+    "model": "popularity",
+    "backbone": "gpt2",
+    "use_text": false,
+    "use_id": false,
+    "pooling": "mean",
+    "no_pretrained": false,
+    "freeze_backbone": false,
+    "item_dim": 768,
+    "layers": 2,
+    "heads": 2,
+    "dropout": 0.2,
+    "temperature": 0.05,
+    "scoring": "cosine",
+    "max_len": 100,
+    "epochs": 200,
+    "patience": 20,
+    "batch_size": 128,
+    "eval_batch_size": 512,
+    "lr": 5e-05,
+    "weight_decay": 0.01,
+    "seed": 42,
+    "buckets": [
+      100,
+      500
+    ],
+    "case_user_row": 0,
+    "save_ckpt": true,
+    "device": "cuda",
+    "data_path": "/home/xiaoyu/SJTU/ml-1m",
+    "gpt2_path": "/home/xiaoyu/SJTU/gpt2_model",
+    "features": "/home/xiaoyu/SJTU/recommender/miniHLLM/weight/item_text_features.pt",
+    "out_dir": "results/main"
+  },
+  "trainable_params": 0,
+  "epochs": [],
+  "best_epoch": 0,
+  "valid": {
+    "HR@10": 0.04271523281931877,
+    "NDCG@10": 0.020595312118530273,
+    "HR@20": 0.07052980363368988,
+    "NDCG@20": 0.02757802978157997,
+    "n_users": 6040,
+    "buckets": {
+      "pop[0,100)": {
+        "HR@10": 0.0,
+        "NDCG@10": 0.0,
+        "HR@20": 0.0,
+        "NDCG@20": 0.0,
+        "n_users": 502
+      },
+      "pop[100,500)": {
+        "HR@10": 0.0,
+        "NDCG@10": 0.0,
+        "HR@20": 0.0,
+        "NDCG@20": 0.0,
+        "n_users": 2197
+      },
+      "pop[500,inf)": {
+        "HR@10": 0.07722239196300507,
+        "NDCG@10": 0.03723306953907013,
+        "HR@20": 0.12750673294067383,
+        "NDCG@20": 0.04985671490430832,
+        "n_users": 3341
+      }
+    }
+  },
+  "test": {
+    "HR@10": 0.03692052885890007,
+    "NDCG@10": 0.01802971586585045,
+    "HR@20": 0.06804636120796204,
+    "NDCG@20": 0.025796422734856606,
+    "n_users": 6040,
+    "buckets": {
+      "pop[0,100)": {
+        "HR@10": 0.0,
+        "NDCG@10": 0.0,
+        "HR@20": 0.0,
+        "NDCG@20": 0.0,
+        "n_users": 507
+      },
+      "pop[100,500)": {
+        "HR@10": 0.0,
+        "NDCG@10": 0.0,
+        "HR@20": 0.0,
+        "NDCG@20": 0.0,
+        "n_users": 2195
+      },
+      "pop[500,inf)": {
+        "HR@10": 0.06680647283792496,
+        "NDCG@10": 0.03262417018413544,
+        "HR@20": 0.12312762439250946,
+        "NDCG@20": 0.04667776823043823,
+        "n_users": 3338
+      }
+    }
+  },
+  "train_seconds": 0.06747269630432129,
+  "case_study": "User 1 最近观看：\n    2355: Bug's Life, A (1998)\n    2294: Antz (1998)\n    783: Hunchback of Notre Dame, The (1996)\n    1566: Hercules (1997)\n    1907: Mulan (1998)\n  真实下一部：48: Pocahontas (1995)\n  Top-10 推荐：\n      2858: American Beauty (1999)\n      1196: Star Wars: Episode V - The Empire Strikes Back (1980)\n      1210: Star Wars: Episode VI - Return of the Jedi (1983)\n      480: Jurassic Park (1993)\n      589: Terminator 2: Judgment Day (1991)\n      2571: Matrix, The (1999)\n      593: Silence of the Lambs, The (1991)\n      1580: Men in Black (1997)\n      1198: Raiders of the Lost Ark (1981)\n      110: Braveheart (1995)"
+}

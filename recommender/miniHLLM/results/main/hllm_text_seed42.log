@@ -1,0 +1,73 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=100
+Model: hllm_text  trainable params: 87,615,745  device: cuda
+Epoch   1: loss=7.6269  valid HR@10=0.0800  NDCG@10=0.0406  tau=0.050  peak_mem=13.2G
+Epoch   2: loss=6.9556  valid HR@10=0.1245  NDCG@10=0.0657  tau=0.050  peak_mem=13.2G
+Epoch   3: loss=6.5576  valid HR@10=0.1727  NDCG@10=0.0922  tau=0.049  peak_mem=13.2G
+Epoch   4: loss=6.3191  valid HR@10=0.1896  NDCG@10=0.1034  tau=0.049  peak_mem=13.2G
+Epoch   5: loss=6.1534  valid HR@10=0.2192  NDCG@10=0.1204  tau=0.049  peak_mem=13.2G
+Epoch   6: loss=6.0139  valid HR@10=0.2392  NDCG@10=0.1327  tau=0.049  peak_mem=13.2G
+Epoch   7: loss=5.9052  valid HR@10=0.2492  NDCG@10=0.1393  tau=0.048  peak_mem=13.2G
+Epoch   8: loss=5.8235  valid HR@10=0.2583  NDCG@10=0.1447  tau=0.048  peak_mem=13.2G
+Epoch   9: loss=5.7523  valid HR@10=0.2647  NDCG@10=0.1486  tau=0.048  peak_mem=13.2G
+Epoch  10: loss=5.6887  valid HR@10=0.2795  NDCG@10=0.1563  tau=0.048  peak_mem=13.2G
+Epoch  11: loss=5.6347  valid HR@10=0.2823  NDCG@10=0.1584  tau=0.048  peak_mem=13.2G
+Epoch  12: loss=5.5839  valid HR@10=0.2833  NDCG@10=0.1616  tau=0.047  peak_mem=13.2G
+Epoch  13: loss=5.5386  valid HR@10=0.2934  NDCG@10=0.1675  tau=0.047  peak_mem=13.2G
+Epoch  14: loss=5.4952  valid HR@10=0.2974  NDCG@10=0.1665  tau=0.047  peak_mem=13.2G
+Epoch  15: loss=5.4555  valid HR@10=0.3025  NDCG@10=0.1718  tau=0.047  peak_mem=13.2G
+Epoch  16: loss=5.4145  valid HR@10=0.3063  NDCG@10=0.1712  tau=0.046  peak_mem=13.2G
+Epoch  17: loss=5.3742  valid HR@10=0.3076  NDCG@10=0.1753  tau=0.046  peak_mem=13.2G
+Epoch  18: loss=5.3398  valid HR@10=0.3136  NDCG@10=0.1776  tau=0.046  peak_mem=13.2G
+Epoch  19: loss=5.3014  valid HR@10=0.3136  NDCG@10=0.1771  tau=0.046  peak_mem=13.2G
+Epoch  20: loss=5.2653  valid HR@10=0.3141  NDCG@10=0.1800  tau=0.046  peak_mem=13.2G
+Epoch  21: loss=5.2297  valid HR@10=0.3159  NDCG@10=0.1792  tau=0.045  peak_mem=13.2G
+Epoch  22: loss=5.1925  valid HR@10=0.3134  NDCG@10=0.1801  tau=0.045  peak_mem=13.2G
+Epoch  23: loss=5.1588  valid HR@10=0.3154  NDCG@10=0.1810  tau=0.045  peak_mem=13.2G
+Epoch  24: loss=5.1211  valid HR@10=0.3121  NDCG@10=0.1801  tau=0.045  peak_mem=13.2G
+Epoch  25: loss=5.0816  valid HR@10=0.3220  NDCG@10=0.1847  tau=0.044  peak_mem=13.2G
+Epoch  26: loss=5.0437  valid HR@10=0.3141  NDCG@10=0.1797  tau=0.044  peak_mem=13.2G
+Epoch  27: loss=5.0070  valid HR@10=0.3180  NDCG@10=0.1824  tau=0.044  peak_mem=13.2G
+Epoch  28: loss=4.9710  valid HR@10=0.3185  NDCG@10=0.1822  tau=0.044  peak_mem=13.2G
+Epoch  29: loss=4.9312  valid HR@10=0.3142  NDCG@10=0.1799  tau=0.043  peak_mem=13.2G
+Epoch  30: loss=4.8916  valid HR@10=0.3180  NDCG@10=0.1829  tau=0.043  peak_mem=13.2G
+Epoch  31: loss=4.8510  valid HR@10=0.3177  NDCG@10=0.1833  tau=0.043  peak_mem=13.2G
+Epoch  32: loss=4.8089  valid HR@10=0.3152  NDCG@10=0.1795  tau=0.043  peak_mem=13.2G
+Epoch  33: loss=4.7697  valid HR@10=0.3111  NDCG@10=0.1779  tau=0.042  peak_mem=13.2G
+Epoch  34: loss=4.7251  valid HR@10=0.3147  NDCG@10=0.1795  tau=0.042  peak_mem=13.2G
+Epoch  35: loss=4.6813  valid HR@10=0.3108  NDCG@10=0.1782  tau=0.042  peak_mem=13.2G
+Epoch  36: loss=4.6400  valid HR@10=0.3099  NDCG@10=0.1774  tau=0.041  peak_mem=13.2G
+Epoch  37: loss=4.5933  valid HR@10=0.3078  NDCG@10=0.1757  tau=0.041  peak_mem=13.2G
+Epoch  38: loss=4.5544  valid HR@10=0.3086  NDCG@10=0.1764  tau=0.041  peak_mem=13.2G
+Epoch  39: loss=4.5102  valid HR@10=0.3050  NDCG@10=0.1748  tau=0.041  peak_mem=13.2G
+Epoch  40: loss=4.4660  valid HR@10=0.3096  NDCG@10=0.1765  tau=0.040  peak_mem=13.2G
+Epoch  41: loss=4.4203  valid HR@10=0.3073  NDCG@10=0.1745  tau=0.040  peak_mem=13.2G
+Epoch  42: loss=4.3720  valid HR@10=0.3022  NDCG@10=0.1725  tau=0.040  peak_mem=13.2G
+Epoch  43: loss=4.3286  valid HR@10=0.3060  NDCG@10=0.1738  tau=0.040  peak_mem=13.2G
+Epoch  44: loss=4.2821  valid HR@10=0.3008  NDCG@10=0.1714  tau=0.039  peak_mem=13.2G
+Epoch  45: loss=4.2364  valid HR@10=0.2995  NDCG@10=0.1720  tau=0.039  peak_mem=13.2G
+Early stopping at epoch 45; best epoch 25
+Saved checkpoint to /home/xiaoyu/SJTU/recommender/miniHLLM/weight/ckpt/hllm_text_seed42.pth
+Best epoch 25  valid: HR@10=0.3220 NDCG@10=0.1847
+Test: HR@10=0.2916 NDCG@10=0.1720 HR@20=0.3988 NDCG@20=0.1993
+        pop[0,100)  n= 507  HR@10=0.0789  NDCG@10=0.0407
+      pop[100,500)  n=2195  HR@10=0.2155  NDCG@10=0.1201
+      pop[500,inf)  n=3338  HR@10=0.3739  NDCG@10=0.2260
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      364: Lion King, The (1994)
+      2394: Prince of Egypt, The (1998)
+      1688: Anastasia (1997)
+    * 48: Pocahontas (1995)
+      2081: Little Mermaid, The (1989)
+      2078: Jungle Book, The (1967)
+      1032: Alice in Wonderland (1951)
+      3034: Robin Hood (1973)
+      13: Balto (1995)
+      2080: Lady and the Tramp (1955)
+Wrote results/main/hllm_text_seed42.json

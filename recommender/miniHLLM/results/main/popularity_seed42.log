@@ -1,0 +1,26 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=100
+Model: popularity  trainable params: 0  device: cuda
+Best epoch 0  valid: HR@10=0.0427 NDCG@10=0.0206
+Test: HR@10=0.0369 NDCG@10=0.0180 HR@20=0.0680 NDCG@20=0.0258
+        pop[0,100)  n= 507  HR@10=0.0000  NDCG@10=0.0000
+      pop[100,500)  n=2195  HR@10=0.0000  NDCG@10=0.0000
+      pop[500,inf)  n=3338  HR@10=0.0668  NDCG@10=0.0326
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      2858: American Beauty (1999)
+      1196: Star Wars: Episode V - The Empire Strikes Back (1980)
+      1210: Star Wars: Episode VI - Return of the Jedi (1983)
+      480: Jurassic Park (1993)
+      589: Terminator 2: Judgment Day (1991)
+      2571: Matrix, The (1999)
+      593: Silence of the Lambs, The (1991)
+      1580: Men in Black (1997)
+      1198: Raiders of the Lost Ark (1981)
+      110: Braveheart (1995)
+Wrote results/main/popularity_seed42.json

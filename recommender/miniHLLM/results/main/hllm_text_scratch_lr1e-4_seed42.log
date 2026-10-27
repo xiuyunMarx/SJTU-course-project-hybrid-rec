@@ -1,0 +1,64 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=100
+Model: hllm_text_scratch_lr1e-4  trainable params: 87,615,745  device: cuda
+Epoch   1: loss=7.4353  valid HR@10=0.1366  NDCG@10=0.0749  tau=0.050  peak_mem=13.2G
+Epoch   2: loss=6.6888  valid HR@10=0.1745  NDCG@10=0.1011  tau=0.050  peak_mem=13.2G
+Epoch   3: loss=6.3547  valid HR@10=0.2098  NDCG@10=0.1197  tau=0.049  peak_mem=13.2G
+Epoch   4: loss=6.1283  valid HR@10=0.2247  NDCG@10=0.1293  tau=0.049  peak_mem=13.2G
+Epoch   5: loss=5.9413  valid HR@10=0.2477  NDCG@10=0.1401  tau=0.049  peak_mem=13.2G
+Epoch   6: loss=5.7836  valid HR@10=0.2579  NDCG@10=0.1457  tau=0.049  peak_mem=13.2G
+Epoch   7: loss=5.6483  valid HR@10=0.2738  NDCG@10=0.1576  tau=0.048  peak_mem=13.2G
+Epoch   8: loss=5.5330  valid HR@10=0.2808  NDCG@10=0.1621  tau=0.048  peak_mem=13.2G
+Epoch   9: loss=5.4254  valid HR@10=0.2921  NDCG@10=0.1692  tau=0.048  peak_mem=13.2G
+Epoch  10: loss=5.3231  valid HR@10=0.2919  NDCG@10=0.1686  tau=0.048  peak_mem=13.2G
+Epoch  11: loss=5.2162  valid HR@10=0.2975  NDCG@10=0.1718  tau=0.047  peak_mem=13.2G
+Epoch  12: loss=5.1101  valid HR@10=0.2997  NDCG@10=0.1750  tau=0.047  peak_mem=13.2G
+Epoch  13: loss=5.0045  valid HR@10=0.3030  NDCG@10=0.1750  tau=0.047  peak_mem=13.2G
+Epoch  14: loss=4.8925  valid HR@10=0.2993  NDCG@10=0.1748  tau=0.046  peak_mem=13.2G
+Epoch  15: loss=4.7871  valid HR@10=0.3002  NDCG@10=0.1752  tau=0.046  peak_mem=13.2G
+Epoch  16: loss=4.6669  valid HR@10=0.3007  NDCG@10=0.1757  tau=0.046  peak_mem=13.2G
+Epoch  17: loss=4.5412  valid HR@10=0.2950  NDCG@10=0.1714  tau=0.045  peak_mem=13.2G
+Epoch  18: loss=4.4078  valid HR@10=0.2911  NDCG@10=0.1695  tau=0.045  peak_mem=13.2G
+Epoch  19: loss=4.2873  valid HR@10=0.2907  NDCG@10=0.1695  tau=0.045  peak_mem=13.2G
+Epoch  20: loss=4.1482  valid HR@10=0.2861  NDCG@10=0.1660  tau=0.044  peak_mem=13.2G
+Epoch  21: loss=4.0118  valid HR@10=0.2813  NDCG@10=0.1659  tau=0.044  peak_mem=13.2G
+Epoch  22: loss=3.8729  valid HR@10=0.2796  NDCG@10=0.1636  tau=0.044  peak_mem=13.2G
+Epoch  23: loss=3.7283  valid HR@10=0.2788  NDCG@10=0.1618  tau=0.044  peak_mem=13.2G
+Epoch  24: loss=3.5877  valid HR@10=0.2750  NDCG@10=0.1601  tau=0.043  peak_mem=13.2G
+Epoch  25: loss=3.4449  valid HR@10=0.2712  NDCG@10=0.1571  tau=0.043  peak_mem=13.2G
+Epoch  26: loss=3.2998  valid HR@10=0.2710  NDCG@10=0.1578  tau=0.043  peak_mem=13.2G
+Epoch  27: loss=3.1563  valid HR@10=0.2619  NDCG@10=0.1528  tau=0.042  peak_mem=13.2G
+Epoch  28: loss=3.0144  valid HR@10=0.2578  NDCG@10=0.1500  tau=0.042  peak_mem=13.2G
+Epoch  29: loss=2.8649  valid HR@10=0.2518  NDCG@10=0.1485  tau=0.042  peak_mem=13.2G
+Epoch  30: loss=2.7294  valid HR@10=0.2488  NDCG@10=0.1444  tau=0.042  peak_mem=13.2G
+Epoch  31: loss=2.5896  valid HR@10=0.2475  NDCG@10=0.1441  tau=0.041  peak_mem=13.2G
+Epoch  32: loss=2.4509  valid HR@10=0.2399  NDCG@10=0.1410  tau=0.041  peak_mem=13.2G
+Epoch  33: loss=2.3076  valid HR@10=0.2381  NDCG@10=0.1400  tau=0.041  peak_mem=13.2G
+Epoch  34: loss=2.1771  valid HR@10=0.2411  NDCG@10=0.1405  tau=0.041  peak_mem=13.2G
+Epoch  35: loss=2.0489  valid HR@10=0.2358  NDCG@10=0.1363  tau=0.040  peak_mem=13.2G
+Epoch  36: loss=1.9238  valid HR@10=0.2329  NDCG@10=0.1362  tau=0.040  peak_mem=13.2G
+Early stopping at epoch 36; best epoch 16
+Saved checkpoint to /home/xiaoyu/SJTU/recommender/miniHLLM/weight/ckpt/hllm_text_scratch_lr1e-4_seed42.pth
+Best epoch 16  valid: HR@10=0.3007 NDCG@10=0.1757
+Test: HR@10=0.2820 NDCG@10=0.1636 HR@20=0.3755 NDCG@20=0.1871
+        pop[0,100)  n= 507  HR@10=0.0769  NDCG@10=0.0477
+      pop[100,500)  n=2195  HR@10=0.2041  NDCG@10=0.1111
+      pop[500,inf)  n=3338  HR@10=0.3643  NDCG@10=0.2157
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      364: Lion King, The (1994)
+      2761: Iron Giant, The (1999)
+      1032: Alice in Wonderland (1951)
+      1025: Sword in the Stone, The (1963)
+      2987: Who Framed Roger Rabbit? (1988)
+      3751: Chicken Run (2000)
+      2078: Jungle Book, The (1967)
+      2394: Prince of Egypt, The (1998)
+      2081: Little Mermaid, The (1989)
+      596: Pinocchio (1940)
+Wrote results/main/hllm_text_scratch_lr1e-4_seed42.json

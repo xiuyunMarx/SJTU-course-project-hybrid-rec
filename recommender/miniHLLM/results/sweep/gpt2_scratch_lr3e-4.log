@@ -1,0 +1,36 @@
+SeqData: users=6040, items=3883, interactions=1000209, seq_len min/median/max=20/96/2314, max_len=50
+Model: gpt2_scratch_lr3e-4  trainable params: 87,615,745  device: cuda
+Epoch   1: loss=7.9965  valid HR@10=0.0232  NDCG@10=0.0111  tau=0.050
+Epoch   2: loss=7.8708  valid HR@10=0.0391  NDCG@10=0.0187  tau=0.050
+Epoch   3: loss=7.7881  valid HR@10=0.0419  NDCG@10=0.0221  tau=0.050
+Epoch   4: loss=7.7164  valid HR@10=0.0440  NDCG@10=0.0219  tau=0.050
+Epoch   5: loss=7.6672  valid HR@10=0.0505  NDCG@10=0.0236  tau=0.050
+Epoch   6: loss=7.6002  valid HR@10=0.0505  NDCG@10=0.0246  tau=0.050
+Epoch   7: loss=7.5609  valid HR@10=0.0546  NDCG@10=0.0263  tau=0.050
+Epoch   8: loss=7.5077  valid HR@10=0.0478  NDCG@10=0.0241  tau=0.050
+Epoch   9: loss=7.5128  valid HR@10=0.0513  NDCG@10=0.0258  tau=0.050
+Epoch  10: loss=7.4593  valid HR@10=0.0548  NDCG@10=0.0271  tau=0.050
+Best epoch 10  valid: HR@10=0.0548 NDCG@10=0.0271
+Test: HR@10=0.0505 NDCG@10=0.0254 HR@20=0.0879 NDCG@20=0.0349
+        pop[0,100)  n= 507  HR@10=0.0000  NDCG@10=0.0000
+      pop[100,500)  n=2195  HR@10=0.0018  NDCG@10=0.0007
+      pop[500,inf)  n=3338  HR@10=0.0902  NDCG@10=0.0456
+User 1 最近观看：
+    2355: Bug's Life, A (1998)
+    2294: Antz (1998)
+    783: Hunchback of Notre Dame, The (1996)
+    1566: Hercules (1997)
+    1907: Mulan (1998)
+  真实下一部：48: Pocahontas (1995)
+  Top-10 推荐：
+      2858: American Beauty (1999)
+      2997: Being John Malkovich (1999)
+      2396: Shakespeare in Love (1998)
+      318: Shawshank Redemption, The (1994)
+      593: Silence of the Lambs, The (1991)
+      2716: Ghostbusters (1984)
+      1136: Monty Python and the Holy Grail (1974)
+      3481: High Fidelity (2000)
+      356: Forrest Gump (1994)
+      2683: Austin Powers: The Spy Who Shagged Me (1999)
+Wrote results/sweep/gpt2_scratch_lr3e-4_seed42.json
